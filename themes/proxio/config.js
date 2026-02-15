@@ -2,7 +2,7 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-  PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
+  PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
   PROXIO_WELCOME_TEXT: '', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
@@ -63,7 +63,7 @@ const CONFIG = {
   PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
   // 首页生涯区块
-  PROXIO_CAREER_ENABLE: true, // 区块开关
+  PROXIO_CAREER_ENABLE: false, // 区块开关
   PROXIO_CAREER_TITLE: '生涯',
   PROXIO_CAREER_TEXT: '以下是我的职业生涯',
 
@@ -176,7 +176,7 @@ const CONFIG = {
   ],
 
   // 关于作者区块
-  PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+  PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: '关于作者',
   PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
   PROXIO_ABOUT_TEXT_2:
@@ -195,7 +195,7 @@ const CONFIG = {
   PROXIO_ABOUT_BUTTON_TEXT: '关于我',
 
   // 横向滚动文字
-  PROXIO_BRANDS_ENABLE: true, // 滚动文字
+  PROXIO_BRANDS_ENABLE: false, // 滚动文字
   PROXIO_BRANDS: [
     'Web Design',
     'Logo Design',
@@ -272,7 +272,7 @@ const CONFIG = {
   PROXIO_CTA_BUTTON_TEXT: '联系我',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
-  PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
+  PROXIO_POST_REDIRECT_URL: 'https://www.xunfei.com', // 重定向域名
   PROXIO_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_PROXIO_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
